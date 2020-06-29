@@ -29,6 +29,9 @@ function win(userChoice,computerChoice){
     let smalluWord= user.fontsize(3).sub();
     let smallcWord= comp.fontsize(3).sub();
     result_div.innerHTML=`User ${smalluWord} Beats Computer ${smallcWord}`;
+    document.getElementById(userChoice).classList.add('green-glow');
+    setTimeout(function(){document.getElementById(userChoice).classList.remove('green-glow');
+},500);
 }
 
 function lose(userChoice,computerChoice){
@@ -40,7 +43,11 @@ function lose(userChoice,computerChoice){
     let smalluWord= user.fontsize(3).sub();
     let smallcWord= comp.fontsize(3).sub();
     result_div.innerHTML=`User ${smalluWord} is Beaten by Computer ${smallcWord}`;
+    document.getElementById(userChoice).classList.add('red-glow');
+    setTimeout(function(){document.getElementById(userChoice).classList.remove('red-glow');
+},500);
    
+    
     
 }
 
@@ -50,6 +57,9 @@ function draw(userChoice,computerChoice){
     let smalluWord= user.fontsize(3).sub();
     let smallcWord= comp.fontsize(3).sub();
     result_div.innerHTML=`User ${smalluWord} & Computer ${smallcWord}: Game Drawn`;
+    document.getElementById(userChoice).classList.add('gray-glow');
+    setTimeout(function(){document.getElementById(userChoice).classList.remove('gray-glow');
+},500);
 }
 
 function game(userChoice){
