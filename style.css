@@ -29,7 +29,7 @@ header > h1{
     width: 200px;
     color: #32e0c4;
     font-size: 46px;
-    padding: 15px 20px;
+    padding: 15px 50px;
     position: relative;
 }
 
@@ -44,13 +44,13 @@ header > h1{
 #user-label{
     position: absolute;
     top: 30px;
-    left: -25px;
+    left: -30px;
 }
 
 #comp-label{
     position: absolute;
     top: 30px;
-    right: -40px;
+    right: -60px;
 }
 
 .result{
