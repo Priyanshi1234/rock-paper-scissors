@@ -26,7 +26,7 @@ header > h1{
     border: 3px solid #222831;
     border-radius: 4px;
     text-align: center;
-    width: 200px;
+    width: 400px;
     color: #32e0c4;
     font-size: 46px;
     padding: 15px 50px;
@@ -52,6 +52,12 @@ header > h1{
     top: 30px;
     right: -60px;
 }
+
+
+#user-score{
+    padding: 10px;
+}
+
 
 .result{
     color: #32e0c4;
